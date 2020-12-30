@@ -1,6 +1,5 @@
-import React from 'react'
-import { TextInputProps } from 'react-native'
-import { useWindowDimensions } from 'react-native'
+import React, { useState } from 'react'
+import { TextInputProps, useWindowDimensions } from 'react-native'
 
 import {
   Container,
@@ -13,11 +12,16 @@ interface InputProps extends TextInputProps {
 }
 
 const Input: React.FC<InputProps> = ({ ...rest }) => {
+  const [ selected, setSelected ] = useState(false)
   const windowWidth = useWindowDimensions().width
 
   return (
-    <Container width={windowWidth}>
-      <TextInput placeholderTextColor="#fff" {...rest} />
+    <Container width={windowWidth} selected={selected}>
+      <TextInput
+        placeholderTextColor="#fff"
+        {...rest} onFocus={(event) => console.warn(event.nativeEvent)}
+        keyboarAppearance="dark"
+      />
     </Container>
   )
 }

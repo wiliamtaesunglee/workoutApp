@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { useWindowDimensions } from 'react-native'
 
 import Input from '../../Components/Input'
 import Button from '../../Components/Button'
@@ -10,9 +11,14 @@ import {
   Section,
   Title,
   BackButton,
+  TemrsAndServicesContainer,
+  TemrsAndServicesCheckbox,
+  TemrsAndServicesText,
 } from './style'
 
 const SignUp = () => {
+  const [toggleCheckBox, setToggleCheckBox] = useState(false)
+  const windowWidth = useWindowDimensions().width
   const navigation = useNavigation()
 
   return (
@@ -35,6 +41,18 @@ const SignUp = () => {
         >
           ENIVAR
         </Button>
+
+        <TemrsAndServicesContainer width={windowWidth}>
+          <TemrsAndServicesCheckbox
+            tintColor={ toggleCheckBox ? 'yellow' : 'white' }
+            onCheckColor="yellow"
+            boxType='square'
+            disabled={false}
+            value={toggleCheckBox}
+            onValueChange={(newValue) => setToggleCheckBox(newValue)}
+          />
+          <TemrsAndServicesText>Eu concordo com os termos de políticas da Iridium Labs</TemrsAndServicesText>
+        </TemrsAndServicesContainer>
       </Section>
     </Container>
   )
