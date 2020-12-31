@@ -39,7 +39,7 @@ const SignUp = () => {
           onPress={() => {}}
           marginTop={32}
         >
-          ENIVAR
+          ENVIAR
         </Button>
 
         <TemrsAndServicesContainer width={windowWidth}>

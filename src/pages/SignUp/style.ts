@@ -15,7 +15,7 @@ export const Section = styled.View`
 export const Title = styled.Text`
   color: white;
   font-size: 36px;
-  font-weight: bold;
+  font-family: 'Poppins-Black';
   padding: 32px 0 0 30px;
 `
 
