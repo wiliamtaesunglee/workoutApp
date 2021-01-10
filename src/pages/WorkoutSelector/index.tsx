@@ -13,7 +13,7 @@ import {
   BackButton,
 } from './style'
 
-const SignIn = () => {
+const WorkoutSelector = () => {
   const navigation = useNavigation()
 
   return (
@@ -22,7 +22,7 @@ const SignIn = () => {
       <BackButton onPress={() => navigation.navigate('Welcome')}>
         <Icon name="chevron-left" size={30} color="#fff" />
       </BackButton>
-      <Title>Logar</Title>
+      <Title>Selecione seu plano</Title>
 
       <Section>
         <Input name="email" placeholder="Email" />
@@ -39,4 +39,4 @@ const SignIn = () => {
   )
 }
 
-export default SignIn
+export default WorkoutSelector

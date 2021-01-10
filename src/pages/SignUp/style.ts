@@ -19,7 +19,9 @@ export const Title = styled.Text`
   padding: 32px 0 0 30px;
 `
 
-export const BackButton = styled.TouchableOpacity``
+export const BackButton = styled.TouchableOpacity`
+  margin-left: 30px;
+`
 
 export const TemrsAndServicesContainer = styled.View`
   width: ${({width}) => width - 60}px;

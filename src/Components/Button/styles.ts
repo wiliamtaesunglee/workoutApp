@@ -18,5 +18,5 @@ export const Container = styled(RectButton)<ContainerProps>`
 
 export const Text = styled.Text`
   font-size: 18px;
-  font-family: 'Poppins-Black';
+  font-weight: bold;
 `

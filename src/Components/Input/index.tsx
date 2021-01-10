@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import { TextInputProps, useWindowDimensions } from 'react-native'
 
 import {
@@ -12,14 +12,29 @@ interface InputProps extends TextInputProps {
 }
 
 const Input: React.FC<InputProps> = ({ ...rest }) => {
-  const [ selected, setSelected ] = useState(false)
+  const [ isFocus, setisFocus ] = useState(false)
+  const [ isFilled, setIsFilled ] = useState(false)
+  const [ value, setValue ] = useState("")
   const windowWidth = useWindowDimensions().width
 
+  const handleInputFocus = useCallback((event) => {
+    setisFocus(true)
+    setValue(event.nativeEvent.text)
+  }, [])
+
+  const handleInputBlur = useCallback(() => {
+    setisFocus(false)
+
+    setIsFilled(!!value)
+  }, [])
+
   return (
-    <Container width={windowWidth} selected={selected}>
+    <Container width={windowWidth} isFocus={isFocus}>
       <TextInput
         placeholderTextColor="#fff"
-        {...rest} onFocus={(event) => console.warn(event.nativeEvent)}
+        onFocus={handleInputFocus}
+        onBlur={handleInputBlur}
+        {...rest}
         keyboarAppearance="dark"
       />
     </Container>

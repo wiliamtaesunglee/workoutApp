@@ -9,7 +9,7 @@ export const Container = styled.View<ContainerProps>`
   height: 50px;
   background-color: transparent;
   margin-bottom: 8px;
-  border-bottom-color: ${({selected}) => selected ? '#fff000' : '#fff'};
+  border-bottom-color: ${({isFocus}) => isFocus ? '#fff000' : '#fff'};
   border-bottom-width: 2px;
 `
 
