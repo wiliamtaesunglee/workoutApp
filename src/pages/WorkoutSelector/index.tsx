@@ -10,16 +10,14 @@ import {
   FlatList,
   Dimensions,
   Animated,
-  Text,
   View,
-  StyleSheet,
-} from 'react-native';
-const { width } = Dimensions.get('screen')
+} from 'react-native'
 import {
   FlingGestureHandler,
   Directions,
   State,
 } from 'react-native-gesture-handler'
+import { useNavigation } from '@react-navigation/native'
 
 import events from './events'
 import {
@@ -33,7 +31,7 @@ import {
   ItemContainerRow,
 } from './style'
 
-
+const { width } = Dimensions.get('screen')
 const OVERFLOW_HEIGHT = 70;
 const SPACING = 10;
 const ITEM_WIDTH = width * 0.76;
@@ -75,11 +73,12 @@ const OverflowItems = ({ data, scrollXAnimated }) => {
   )
 }
 
-export default function App() {
+const WorkoutSelector = () => {
   const [data, setData] = useState(events)
   const scrollXIndex = useRef(new Animated.Value(0)).current
   const scrollXAnimated = useRef(new Animated.Value(0)).current
   const [currentItemIndex, setCurrentItemIndex] = useState(0)
+  const navigation = useNavigation()
   const setActiveIndex = useCallback(
     (activeIndex) => {
       scrollXIndex.setValue(activeIndex, )
@@ -180,7 +179,10 @@ export default function App() {
                 >
                   <ButtonContainer
                     onPress={() => {
-                      console.warn(events[currentItemIndex])
+                      navigation.navigate(
+                        'Workout',
+                        events[currentItemIndex]
+                      )
                     }}
                   >
                     <Image
@@ -202,14 +204,4 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  itemContainer: {
-    height: OVERFLOW_HEIGHT,
-    padding: SPACING * 2,
-  },
-  itemContainerRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-});
+export default WorkoutSelector
