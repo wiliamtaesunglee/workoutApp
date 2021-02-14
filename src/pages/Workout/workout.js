@@ -29,7 +29,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '2',
         workout: [
           {
             name: 'Pulley Frente',
@@ -55,7 +55,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '3',
         workout: [
           {
             name: 'Pulley Frente',
@@ -81,7 +81,85 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '4',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '5',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '6',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '7',
         workout: [
           {
             name: 'Pulley Frente',
@@ -112,7 +190,7 @@ export default [
     title: 'Semna 2',
     trains: [
       {
-        day: '1',
+        day: '8',
         workout: [
           {
             name: 'Pulley Frente',
@@ -138,7 +216,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '9',
         workout: [
           {
             name: 'Pulley Frente',
@@ -164,7 +242,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '10',
         workout: [
           {
             name: 'Pulley Frente',
@@ -190,7 +268,111 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '11',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '10',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '12',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '13',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '14',
         workout: [
           {
             name: 'Pulley Frente',
@@ -221,7 +403,7 @@ export default [
     title: 'Semna 3',
     trains: [
       {
-        day: '1',
+        day: '15',
         workout: [
           {
             name: 'Pulley Frente',
@@ -247,7 +429,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '16',
         workout: [
           {
             name: 'Pulley Frente',
@@ -273,7 +455,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '17',
         workout: [
           {
             name: 'Pulley Frente',
@@ -299,7 +481,85 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '18',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '19',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '20',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '21',
         workout: [
           {
             name: 'Pulley Frente',
@@ -330,7 +590,7 @@ export default [
     title: 'Semna 4',
     trains: [
       {
-        day: '1',
+        day: '22',
         workout: [
           {
             name: 'Pulley Frente',
@@ -356,7 +616,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '23',
         workout: [
           {
             name: 'Pulley Frente',
@@ -382,7 +642,7 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '24',
         workout: [
           {
             name: 'Pulley Frente',
@@ -408,7 +668,85 @@ export default [
         ]
       },
       {
-        day: '1',
+        day: '25',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '26',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '27',
+        workout: [
+          {
+            name: 'Pulley Frente',
+            video: 'https://',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        day: '28',
         workout: [
           {
             name: 'Pulley Frente',

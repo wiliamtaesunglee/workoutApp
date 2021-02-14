@@ -44,6 +44,7 @@ const OverflowItems = ({ data, scrollXAnimated }) => {
     inputRange,
     outputRange: [OVERFLOW_HEIGHT, 0, -OVERFLOW_HEIGHT],
   });
+
   return (
     <OverflowContainer height={OVERFLOW_HEIGHT}>
       <Animated.View style={{ transform: [{ translateY }] }}>
@@ -178,12 +179,7 @@ const WorkoutSelector = () => {
                   }}
                 >
                   <ButtonContainer
-                    onPress={() => {
-                      navigation.navigate(
-                        'Workout',
-                        events[currentItemIndex]
-                      )
-                    }}
+                    onPress={() => {}}
                   >
                     <Image
                       source={{ uri: item.poster }}

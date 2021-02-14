@@ -1,5 +1,5 @@
 import styled from 'styled-components/native'
-import CheckBox from '@react-native-community/checkbox';
+import CheckBox from '@react-native-community/checkbox'
 
 export const Container = styled.View`
   flex: 1;
