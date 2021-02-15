@@ -145,7 +145,7 @@ const WorkoutSelector = () => {
               const newStyle = [style, { zIndex: data.length - index }];
               return (
                 <View style={newStyle} index={index} {...props}>
-                  {children}
+                  { children }
                 </View>
               );
             }}
@@ -179,7 +179,11 @@ const WorkoutSelector = () => {
                   }}
                 >
                   <ButtonContainer
-                    onPress={() => {}}
+                    onPress={() => {
+                      navigation.navigate(
+                        'Workout',
+                      )
+                    }}
                   >
                     <Image
                       source={{ uri: item.poster }}

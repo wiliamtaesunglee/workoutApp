@@ -1,9 +1,12 @@
 import React, { useState, useRef } from 'react'
 import { Transition, Transitioning, TransitioningView } from 'react-native-reanimated'
 
-import WeekWorkoutButton from '../../Components/WeekWorkoutButton'
+import HeaderNavigation from '../../Components/HeaderNavigation'
+import workout from './workout'
+import WorkoutDetail from '../../Components/WorkoutDetail'
 import {
   WeekWorkouts,
+  Title,
 } from './styles'
 
 const transition = (
@@ -19,35 +22,40 @@ const Workout: React.FC = () => {
   const ref = useRef<TransitioningView>(null)
 
   return (
-    <Transitioning.View
-      ref={ref}
-      transition={transition}
-      style={{ flex: 1 }}
-    >
-      <WeekWorkouts
+    <>
+      <HeaderNavigation />
+      <Transitioning.View
+        ref={ref}
+        transition={transition}
         style={{ flex: 1 }}
       >
-        {
-        workout.map((item, index) => {
-          return (
-            <WeekWorkoutButton
-              title={item.title}
-              trains={item.trains}
-              active={currentIndex === index}
-              onPress={() => {
-                ref.current?.animateNextTransition()
-                setCurrentIndex(
-                  currentIndex === index
-                  ? null
-                  : index
-                )
-              }}
-            />
-          )
-        })
-        }
-      </WeekWorkouts>
-    </Transitioning.View>
+        <WeekWorkouts
+          style={{ flex: 1 }}
+        >
+          {
+          workout[0].trains[0].workout.map((item, index) => {
+            console.warn(item)
+            return (
+              <WorkoutDetail
+                name={item.name}
+                trains={item.rep}
+                video={item.video}
+                active={currentIndex === index}
+                onPress={() => {
+                  ref.current?.animateNextTransition()
+                  setCurrentIndex(
+                    currentIndex === index
+                    ? null
+                    : index
+                  )
+                }}
+              />
+            )
+          })
+          }
+        </WeekWorkouts>
+      </Transitioning.View>
+    </>
   )
 }
 

@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
-import { SafeAreaView } from 'react-native-safe-area-context'
 import { useWindowDimensions } from 'react-native'
 import Icon from 'react-native-vector-icons/Feather'
 
+import HeaderNavigation from '../../Components/HeaderNavigation'
 import Input from '../../Components/Input'
 import Button from '../../Components/Button'
 
@@ -24,10 +24,7 @@ const SignUp = () => {
 
   return (
     <Container>
-      <SafeAreaView />
-      <BackButton onPress={() => navigation.navigate('Welcome')}>
-        <Icon name="chevron-left" size={30} color="#fff" />
-      </BackButton>
+      <HeaderNavigation />
       <Title>Criar Conta</Title>
 
       <Section>

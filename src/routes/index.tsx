@@ -7,6 +7,7 @@ import SignIn from '../pages/SignIn'
 import SignUp from '../pages/SignUp'
 import UserInfo from '../pages/UserInfo'
 import Workout from '../pages/Workout'
+import WorkoutDay from '../pages/WorkoutDay'
 
 const Auth = createStackNavigator()
 
@@ -24,6 +25,7 @@ const AuthRoutes: React.FC = () => (
     <Auth.Screen name="UserInfo" component={UserInfo} />
     <Auth.Screen name="WorkoutSelector" component={WorkoutSelector} />
     <Auth.Screen name="Workout" component={Workout} />
+    <Auth.Screen name="WorkoutDay" component={WorkoutDay} />
   </Auth.Navigator>
 )
 

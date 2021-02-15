@@ -33,7 +33,7 @@ export const BackButton = styled.TouchableOpacity`
   margin-left: 30px;
 `
 
-export const ButtonContainer = styled.TouchableOpacity``
+export const ButtonContainer = styled.TouchableWithoutFeedback``
 
 export const ImageItem = styled.Image`
   width: ${({ width }) => width}px;

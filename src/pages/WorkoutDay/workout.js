@@ -7,7 +7,91 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          },
+          {
+            name: 'Pulley Frente',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          },
+          {
+            name: 'Pulley Frente',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          },
+          {
+            name: 'Pulley Frente',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
+            rep: [
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              },
+              {
+                frequency: '8 - 15',
+                velocity: '1 por 1',
+                interval: '40seg'
+              }
+            ]
+          },
+          {
+            name: 'Pulley Frente',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -33,7 +117,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -59,7 +143,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -85,7 +169,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -111,7 +195,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -137,7 +221,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -163,7 +247,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -194,7 +278,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -220,7 +304,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -246,7 +330,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -272,7 +356,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -298,7 +382,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -324,7 +408,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -350,7 +434,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -376,7 +460,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -407,7 +491,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -433,7 +517,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -459,7 +543,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -485,7 +569,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -511,7 +595,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -537,7 +621,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -563,7 +647,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -594,7 +678,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -620,7 +704,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -646,7 +730,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -672,7 +756,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -698,7 +782,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -724,7 +808,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -750,7 +834,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -781,7 +865,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -807,7 +891,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -833,7 +917,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -859,7 +943,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -885,7 +969,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -911,7 +995,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -937,7 +1021,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -968,7 +1052,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -994,7 +1078,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1020,7 +1104,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1046,7 +1130,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1072,7 +1156,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1098,7 +1182,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1124,7 +1208,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1150,7 +1234,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1181,7 +1265,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1207,7 +1291,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1233,7 +1317,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1259,7 +1343,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1285,7 +1369,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1311,7 +1395,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1337,7 +1421,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1368,7 +1452,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1394,7 +1478,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1420,7 +1504,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1446,7 +1530,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1472,7 +1556,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1498,7 +1582,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',
@@ -1524,7 +1608,7 @@ export default [
         workout: [
           {
             name: 'Pulley Frente',
-            video: 'https://',
+            video: 'https://www.youtube.com/watch?v=NIUExfvsHb8&t=795s',
             rep: [
               {
                 frequency: '8 - 15',

@@ -1,8 +1,7 @@
-import React, { useState, useRef, PropsWithChildren } from 'react'
+import React, { useState, useRef } from 'react'
 import { Transition, Transitioning, TransitioningView } from 'react-native-reanimated'
-import { View } from 'react-native'
-import { RouteProp, PartialRoute } from '@react-navigation/native'
 
+import HeaderNavigation from '../../Components/HeaderNavigation'
 import { WeekWorkoutButtonProps } from '../../Components/WeekWorkoutButton'
 import workout from './workout'
 import WeekWorkoutButton from '../../Components/WeekWorkoutButton'
@@ -26,9 +25,9 @@ const Workout: React.FC<WorkoutProps> = () => {
   const [ currentIndex, setCurrentIndex ] = useState<number | null>(null)
   const ref = useRef<TransitioningView>(null)
 
-  console.warn('>>>', workout)
-
   return (
+    <>
+    <HeaderNavigation />
     <Transitioning.View
       ref={ref}
       transition={transition}
@@ -37,7 +36,7 @@ const Workout: React.FC<WorkoutProps> = () => {
       <WeekWorkouts
         style={{ flex: 1 }}
       >
-        {/* {
+        {
         workout.map((item, index) => {
           return (
             <WeekWorkoutButton
@@ -55,9 +54,10 @@ const Workout: React.FC<WorkoutProps> = () => {
             />
           )
         })
-        } */}
+        }
       </WeekWorkouts>
     </Transitioning.View>
+    </>
   )
 }
 
